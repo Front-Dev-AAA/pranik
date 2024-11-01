@@ -1,0 +1,61 @@
+.table {
+  padding-top: 5px;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.column-name {
+  border: 2px solid #111985;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 110%;
+  color: black;
+}
+
+.table__desc {
+  display: flex;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 100%;
+  width: 500px;
+  color: #111985;
+}
+
+.visibility-hidden {
+  visibility: hidden;
+}
+
+.mistake__block{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  padding-top: 5px;
+  justify-content: center;
+}
+
+
+.mistakeGet__true, .mistakeGetInet__true, .mistakeGetServer__true {
+    opacity: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: #FF5C00;
+    transition: all 0.5s ease-in-out;
+    margin-right: 15px;
+}
+.mistakeGet__false, .mistakeGetServer__false, .mistakeGetInet__false {
+    opacity: 0;
+}
+.mistakeGet__true, .mistakeGetInet__true, .mistakeGetServer__true {
+    opacity: 1;
+}

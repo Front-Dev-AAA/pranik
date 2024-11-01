@@ -1,0 +1,27 @@
+.myBtn {
+	opacity: 0.9;
+	background-color: greenyellow;
+    color: black;
+	padding: 30px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	font-size: 20px;
+	font-weight: 600;
+	border-radius: 10px;
+	transition: transform .5s, outline-color .5s;
+    padding: 15px;
+    width: 100%;
+	border: 1px solid teal;
+	margin-bottom: 10px;
+}
+
+.myBtn:focus-visible {
+	outline-color: rgb(0, 255, 17);
+}
+.myBtn:hover {
+	transform: scale(0.97);
+}
+.myBtn:active {
+	transform: scale(0.91);
+}

@@ -1,0 +1,111 @@
+.form {
+    background-color: #aac4d1;
+    border-radius: 10px;
+    box-shadow: 0 1px 7px rgba(0, 0, 0, 0.25);
+    max-width: 1600px;
+    /* min-height: 500px; */
+    padding: 20px;
+    padding-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+   
+}
+
+.form__title{
+    color: blue;
+}
+
+
+.myBtn {
+    opacity: 0.9;
+    background-color: greenyellow;
+    color: black;
+    padding: 15px 30px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 10px;
+    transition: transform .5s, outline-color .5s;
+    padding: 15px;
+    width: 100%;
+    border: 1px solid teal;
+    margin-bottom: 10px;
+}
+
+.myBtn:focus-visible {
+    outline-color: rgb(0, 94, 255);
+}
+
+.myBtn:hover {
+    transform: scale(0.97);
+}
+
+.myBtn:active {
+    transform: scale(0.91);
+}
+
+.myInp {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid greenyellow;
+    min-width: 400px;
+    border-radius: 10px;
+    line-height: 1.5rem;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: crimson;
+}
+
+
+.mistake__false,
+.mistake__true {
+    opacity: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    color: #FF5C00;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    right: 0;
+    transition: all 0.5s ease-in-out;
+}
+
+.mistakeServer__false,
+.mistakeServer__true {
+    opacity: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    color: #FF5C00;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    right: 0;
+    transition: all 0.5s ease-in-out;
+}
+
+.mistakeAvto__false,
+.mistakeAvto__true {
+    opacity: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    color: #FF5C00;
+    position: absolute;
+    top: 130px;
+    left: 0;
+    right: 0;
+    transition: all 0.5s ease-in-out;
+}
+.mistake__false, .mistakeServer__false, .mistakeAvto__false {
+    opacity: 0;
+}
+.mistake__true, .mistakeServer__true, .mistakeAvto__true {
+    opacity: 1;
+}
